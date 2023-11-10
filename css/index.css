@@ -6,4 +6,44 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TYPOGRAPHY */
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.main-title {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 25px 30px;
+}
+
+/* NAV */
+header {
+    background-color: #282828;
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+}
+
+/* IMAGES & ICONS */
+.icon {
+    width: 25px;
+    margin-left: 15px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+.caption {
+    margin: 0px 25px;
 }

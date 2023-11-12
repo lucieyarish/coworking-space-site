@@ -71,6 +71,24 @@ ul {
     left: 0;
 }
 
+.chatbox-bg {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.chatbox-img {
+   width: 50%; 
+   margin: auto;
+}
+
 
 /* BUTTONS AND LINKS */
 .book-btn {

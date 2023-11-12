@@ -48,16 +48,19 @@ ul {
 
 .item-img {
     width: 100%;
+    display: block;
 }
 
 .caption {
     margin: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .exclusive-banner {
     position: relative;
 }
-
 
 .img-banner {
     background-color: #cd6858;
@@ -66,4 +69,16 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+/* BUTTONS AND LINKS */
+.book-btn {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: auto;
 }
